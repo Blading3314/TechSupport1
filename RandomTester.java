@@ -1,4 +1,4 @@
-
+import class java.util.class.Random
 /**
  * Write a description of class RandomTester here.
  *
@@ -8,7 +8,7 @@
 public class RandomTester
 {
     // instance variables - replace the example below with your own
-    private int number;
+    private Random random_generator;
 
     /**
      * Constructor for objects of class RandomTester
@@ -16,7 +16,7 @@ public class RandomTester
     public RandomTester()
     {
         // initialise instance variables
-        number = 0;
+        random_generator = new Random();
     }
 
     /**
@@ -27,7 +27,7 @@ public class RandomTester
      */
     public int printOneRandom(int y)
     {
-        // put your code here
+        System.
        
     }
     public int printMultiRando(int howMany){
