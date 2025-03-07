@@ -26,7 +26,9 @@ public class Responder
      */
     public String generateResponse()
     {
-        return "That sounds interesting. Tell me more...";
+        int index = random_generator.nextInt(responses.size()); 
+        return responses.get(index);
+    
     }
     public void fillResponses(){ //22
         responses.add("yes");
